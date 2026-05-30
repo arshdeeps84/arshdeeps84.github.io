@@ -15,15 +15,15 @@ import { CommonModule } from '@angular/common';
           Full Stack Developer · {{ currentYear }}
         </div>
 
- <h1>
+<h1>
   <span class="line fade-up">
-    Delivering <span class="outline">Reliable</span>
+    Building <span class="outline">Reliable</span>
   </span>
   <span class="line fade-up">
     <span class="accent-word">Web Solutions</span>
   </span>
   <span class="line fade-up">
-    <span class="outline">For</span> Business Growth
+    For Growing Businesses
   </span>
 </h1>
 

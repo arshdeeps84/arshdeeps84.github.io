@@ -18,7 +18,7 @@ export interface Project {
   template: `
     <section id="work">
   <div class="container">
-  <div class="section-label">Experience</div>
+  <div class="section-label">Work Experience</div>
   <h2 class="section-title fade-up">Professional Experience</h2>
 </div>
       <div class="work-grid">
@@ -56,7 +56,16 @@ export interface Project {
       transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
     }
     .work-card:hover .work-card-img { transform: scale(1.04); }
-    .work-card-img span { font-size: 80px; font-weight: 800; letter-spacing: -0.04em; font-family: var(--font-display); }
+.work-card-img span {
+  font-size: clamp(1.8rem, 6vw, 5rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  font-family: var(--font-display);
+  text-align: center;
+  padding: 0 16px;
+  word-break: break-word;
+  line-height: 1.1;
+}
 
     .wc1 { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); }
     .wc2 { background: linear-gradient(135deg, #1a1a1a 0%, #2d1b0e 100%); }

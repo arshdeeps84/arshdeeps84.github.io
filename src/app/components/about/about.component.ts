@@ -30,15 +30,54 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
   Passionate about learning new technologies and solving real-world problems,
   I focus on delivering high-quality, user-friendly, and efficient solutions.
 </p>
-            <div class="skills-list" #skillsRef>
-              <div class="skill-row" *ngFor="let s of skills">
-                <span class="skill-name">{{ s.name }}</span>
-                <div class="skill-bar-wrap">
-                  <div class="skill-bar" [style.width]="animateBars ? s.pct + '%' : '0%'"></div>
-                </div>
-                <span class="skill-pct">{{ s.pct }}%</span>
-              </div>
-            </div>
+
+            <div class="tech-stack fade-up">
+
+  <div class="tech-group">
+    <span class="tech-title">Frontend</span>
+    <div class="tech-tags">
+      <span class="tag">Angular</span>
+      <span class="tag">TypeScript</span>
+      <span class="tag">HTML5</span>
+      <span class="tag">CSS</span>
+      <span class="tag">Bootstrap</span>
+      <span class="tag">RxJS</span>
+    </div>
+  </div>
+
+  <div class="tech-group">
+    <span class="tech-title">Backend</span>
+    <div class="tech-tags">
+      <span class="tag">.NET Core</span>
+      <span class="tag">ASP.NET</span>
+      <span class="tag">C#</span>
+      <span class="tag">REST API</span>
+      <span class="tag">Web API</span>
+      <span class="tag">JWT Auth</span>
+    </div>
+  </div>
+
+  <div class="tech-group">
+    <span class="tech-title">Database</span>
+    <div class="tech-tags">
+      <span class="tag">MS SQL Server</span>
+      <span class="tag">MySQL</span>
+      <span class="tag">Stored Procedures</span>
+    </div>
+  </div>
+
+  <div class="tech-group">
+    <span class="tech-title">Tools</span>
+    <div class="tech-tags">
+      <span class="tag">Git</span>
+      <span class="tag">GitHub</span>
+      <span class="tag">Postman</span>
+      <span class="tag">Visual Studio</span>
+      <span class="tag">VS Code</span>
+    </div>
+  </div>
+
+</div>
           </div>
         </div>
       </div>
