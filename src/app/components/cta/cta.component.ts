@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
           <span class="accent">Remarkable.</span>
         </h2>
      
-        <a href="mailto:infokind6@gmail.com" class="cta-btn fade-up">
+        <a href="mailto:arshdeepsk1@gmail.com" class="cta-btn fade-up">
           Get In Touch
           <svg fill="none" stroke-width="1.5" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7v10"/>

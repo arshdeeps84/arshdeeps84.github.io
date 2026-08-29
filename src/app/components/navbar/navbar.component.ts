@@ -15,7 +15,7 @@ import { CommonModule } from '@angular/common';
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="mailto:infokind6@gmail.com" class="nav-cta">Let's Talk</a>
+        <a href="mailto:arshdeepsk1@gmail.com" class="nav-cta">Let's Talk</a>
       </div>
     </nav>
   `,
